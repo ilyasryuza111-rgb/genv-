@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ROBLOX Generator</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+
+    body {
+
+      /* Background utama + grid overlay */
+
+      background-image: 
+
+        radial-gradient(#222 1px, transparent 1px),
+
+        url('https://iili.io/K2oOvzg.md.webp');
+
+      background-size: 20px 20px, cover;
+
+      background-position: center;
+
+      background-repeat: no-repeat;
+
+      background-attachment: fixed;
+
+      min-height: 100vh;
+
+    }
+
+
+
+    @media (max-width: 768px) {
+
+      body {
+
+        background-size: 15px 15px, cover;
+
+      }
+
+    }
+
+
+
+    .rotating-logo {
+
+      animation: rotate180 4s linear infinite;
+
+    }
+
+
+
+    @keyframes rotate180 {
+
+      0% { transform: rotate(0deg); }
+
+      50% { transform: rotate(180deg); }
+
+      100% { transform: rotate(360deg); }
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body class="text-white flex flex-col items-center justify-start min-h-screen py-10">
+
+
+
+  <!-- Logo utama -->
+
+  <div class="flex flex-col items-center mb-8">
+
+    <img src="https://iili.io/K2ovskB.webp" 
+
+         alt="Roblox Logo" class="w-12 mb-2 rotating-logo">
+
+    <h1 class="text-3xl font-bold drop-shadow-lg text-black">ROBLOX Generator</h1>
+
+    <p class="text-gray-400 mt-2 drop-shadow">Use this page to view all of our "Roblox" links.</p>
+
+  </div>
+
+
+
+  <!-- Cards -->
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl w-full px-4">
+
+
+
+    <!-- Card 1 -->
+
+    <div class="bg-black/70 border border-gray-700 rounded-xl p-4 shadow-lg text-center">
+
+      <img src="https://iili.io/KHN4nYx.jpg" 
+
+           alt="Roblox Logo" class="w-12 mx-auto mb-2">
+
+      <h2 class="text-xl font-bold text-blue-400">Grow-A-Garden</h2>
+
+      <a href="Grow-A-Garden.html" class="text-blue-300 underline inline-block mt-2">Generator</a>
+
+      <p class="mt-2 text-green-400">Status: Online</p>
+
+    </div>
+
+
+
+</body>
+
+</html>
